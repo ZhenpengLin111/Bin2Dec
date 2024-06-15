@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.converter {
+  margin: 0px 10px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+.Input {
+  margin-bottom: 10px;
+}
+
+.Input span,
+.Input input,
+.Output span,
+.Output input {
+  font-size: 20px;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.btns button {
+  margin-right: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+
+.clear-btn {
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.fa-delete-left {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.convert-btn {
+  padding: 10px 5px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
